@@ -3,60 +3,234 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
     box-sizing: border-box;
 }
 
-html, body {
+/*about start*/
+.midcontainers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+
+}
+
+.basscontainers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+
+}
+
+.container1 {
+    margin-top: 5rem;
+}
+
+.container2 {
+    margin-left: 50rem;
+    margin-top: -19.5rem;
+}
+
+.container3 {
+    margin-top: 5rem;
+    margin-left: 0rem;
+}
+
+.container4 {
+    margin-left: 50rem;
+    margin-top: -18.9rem;
+
+}
+
+/*about end*/
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-right: 17rem;
+    padding: 3rem;
+
+}
+
+a {
+    padding: 0 40px 0 40px;
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+    transition-delay: 5s;
+}
+
+.imglogo {
+    margin: 30px 0 30px 23rem;
+}
+
+.cover {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+
+html,
+body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
@@ -82,7 +256,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -104,12 +278,57 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background: teal;
+}
+
+.box:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.5);
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.box2 {
+    background: gold;
+}
+
+.box3 {
+    background: cadetblue;
+}
+
+.box4 {
+    background: coral;
+}
+
+.box5 {
+    background: crimson;
+}
+
+.box6 {
+    background: forestgreen;
+}
+
+.box7 {
+    background: darkorchid;
+}
+
+.box8 {
+    background: hotpink;
+}
+
+.box9 {
+    background: indigo;
+}
+
+.box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -143,4 +362,94 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*ABOUT PAGE*/
+.container {
+    margin-bottom: 4rem;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5rem 0 5rem 0;
+}
+
+
+.strategy {
+    margin: 0 65rem 5rem 31rem;
+}
+
+.how {
+    margin: -14.7rem 27.5rem 5rem 65rem;
+}
+
+.containers {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5rem 0 5rem 0;
+}
+
+.img1 {
+    margin: 0 0 0 20rem;
+}
+
+.img2 {
+    margin: 0 20rem 0 0;
+}
+
+.img3 {
+    margin: 0 0 0 20rem;
+}
+
+.img4 {
+    margin: 0 20rem 0 0;
+}
+
+
+.place {
+    margin: 0 65rem 5rem 31rem;
+}
+
+.colab {
+    margin: -14.7rem 28rem 5rem 65rem;
+}
+
+
+hr {
+    margin: 0 20rem 0 20rem;
+    border-bottom: 1px dashed black;
+}
+
+.container5 {
+    margin: 3rem 20rem 5rem 20rem;
+
+}
+
+button {
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    border: solid 2px rgb(170, 168, 168);
+}
+
+button:focus,
+input[type="button"]:focus {
+    outline: none;
+}
+
+.Learning {
+    margin: 2rem 0 0 0;
 }
